@@ -2,7 +2,7 @@ import React from 'react';
 
 import TitleBlock from './titleBlock.jsx';
 
-class Tech extends React.Component {
+class Fe extends React.Component {
 
     render() {
         return <div>
@@ -11,4 +11,4 @@ class Tech extends React.Component {
     }
 }
 
-export default Tech;
+export default Fe;
