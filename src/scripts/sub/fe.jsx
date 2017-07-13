@@ -6,7 +6,7 @@ class Fe extends React.Component {
 
     render() {
         return <div>
-        <TitleBlock theTitle='技术区' theDesc='前端技术练习和小玩具。' />
+        <TitleBlock theTitle='前端区' theDesc='前端技术练习和小玩具。' />
         </div>;
     }
 }

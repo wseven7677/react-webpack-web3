@@ -254,16 +254,14 @@ var GalleryApp = React.createClass({
         }.bind(this));
 
         return (
-    		<div className="stage-outter">
-	    		<section className="stage" ref="stage">
-	                <section className="img-sec">
-	                    {imgFigures}
-	                </section>
-	                <nav className="controller-nav">
-	                    {controllerUnits}
-	                </nav>
-	            </section>
-    		</div>
+            <section className="stage" ref="stage">
+                <section className="img-sec">
+                    {imgFigures}
+                </section>
+                <nav className="controller-nav">
+                    {controllerUnits}
+                </nav>
+            </section>
         );
     }
 });

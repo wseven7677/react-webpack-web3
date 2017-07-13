@@ -4,8 +4,8 @@
 
 @import "./template.less";
 @import "./sub-styles/indexPage.less";
-@import "./sub-styles/tech.less";
-@import "./sub-styles/life.less";
+@import "./sub-styles/fe.less";
+@import "./sub-styles/cg.less";
 @import "./sub-styles/titleBlock.less";
 @import "./sub-styles/gallery.less";
 
@@ -14,7 +14,23 @@
 	margin: 0;
 }
 
+html,body{
+	height: 100%;
+}
+
 #outter{
-	background-color: @bgColor;
-	margin-top: 60px;
+	background-color: @outterBgColor;
+	margin-top: -20px;
+	height: 100%;
+}
+
+footer{
+	height: 70px;
+	margin-top: -70px;
+}
+
+@media only screen and (max-width: 768px){
+	.navbar {
+		text-align: center;
+	}
 }
