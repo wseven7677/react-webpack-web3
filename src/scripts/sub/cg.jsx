@@ -12,7 +12,6 @@ class CG extends React.Component {
 	    		<GalleryApp />
 			</div>
 			<div className="warnNotes">这里有个画板墙╮(╯▽╰)╭但是只在宽屏上显示</div>
-			<div>一些别的东西</div>
         </div>;
     }
 }
