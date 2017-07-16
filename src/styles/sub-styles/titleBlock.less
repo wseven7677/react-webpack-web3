@@ -1,15 +1,27 @@
 .pgHeader {
-	padding-left: 10%;
+	padding-left: 100px;
 	padding-top: 30px;
 	padding-bottom: 30px;
-	background: #269ABC;
+
+	background-image: url('../../images/titlePic.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
 
 	.pgHeaderText {
 		color: #FFFFFF;
-		font-size: 30px;
 	}
 
 	.pgHeaderTextSm {
 		color: rgba(255, 255, 255, 0.6);
+	}
+}
+
+@media only screen and (max-width: 768px){
+	.pgHeader {
+		padding-left: 10%;
+
+		.pgHeaderText {
+			font-size: 15px;
+		}
 	}
 }

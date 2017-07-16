@@ -8,16 +8,18 @@ import ReactDOM from 'react-dom';
 import { Router, Route, hashHistory } from 'react-router';
 
 import IndexPage from './sub/indexPage.jsx';
-import Life from './sub/life.jsx';
-import Tech from './sub/tech.jsx';
+import CG from './sub/cg.jsx';
+import Fe from './sub/fe.jsx';
+import About from './about.jsx';
 
 
 ReactDOM.render(
     (
 		<Router history={hashHistory}>
-			<Route path="/" component={IndexPage}/>
-			<Route path="/tech" component={Tech}/>
-			<Route path="/life" component={Life}/>
+			<Route path="/" component={IndexPage} />
+			<Route path="/fe" component={Fe} />
+			<Route path="/cg" component={CG} />
+			<Route path="/about" component={About} />
 		</Router>
     ),
     document.getElementById("outter")
