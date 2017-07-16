@@ -12,6 +12,8 @@ import CG from './sub/cg.jsx';
 import Fe from './sub/fe.jsx';
 import About from './about.jsx';
 
+import Todo from './components/todo.jsx';
+import Chisha from './components/chisha.jsx';
 
 ReactDOM.render(
     (
@@ -20,6 +22,9 @@ ReactDOM.render(
 			<Route path="/fe" component={Fe} />
 			<Route path="/cg" component={CG} />
 			<Route path="/about" component={About} />
+
+			<Route path="/app/todo" component={Todo} />
+			<Route path="/app/chisha" component={Chisha} />
 		</Router>
     ),
     document.getElementById("outter")
