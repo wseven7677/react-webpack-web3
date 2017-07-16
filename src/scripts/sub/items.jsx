@@ -10,6 +10,9 @@ import itemBgSrcMohu from '../../images/itemBg-mohu.jpg';
 import itemBgSrcFangkuai from '../../images/itemBg-fangkuai.jpg';
 import itemBgSrcDuilie from '../../images/itemBg-duilie.jpg';
 
+import itemBgSrcQx from '../../images/itemBg-qx.jpg';
+import itemBgSrcXiaoqiwang from '../../images/itemBg-xiaoqiwang.jpg';
+
 class Item extends React.Component {
 	render() {
 		return <div className="theItem">
@@ -53,6 +56,12 @@ class Items extends React.Component {
 					break;
 				case 7:
 					tidyItems.push(<Item key={index} theName={'js模拟队列'} theBg={itemBgSrcDuilie} theDesc={'早期作品，觉得还不错~'} theUrl={'http://www.wseven7677.tk/frontPractise/JStask6.html'} />);
+					break;
+				case 101:
+					tidyItems.push(<Item key={index} theName={'【漫画】强行拼凑的世界'} theBg={itemBgSrcQx} theDesc={'故事漫画连载中！'} theUrl={'http://www.u17.com/comic/128973.html'} />);
+					break;
+				case 102:
+					tidyItems.push(<Item key={index} theName={'【漫画】小棋王奇遇记'} theBg={itemBgSrcXiaoqiwang} theDesc={'短篇故事漫画~'} theUrl={'http://www.wseven7677.tk/wpBlog/index.php/archives/32'} />);
 					break;
 				default:
 					tidyItems.push(<Item key={index} theName={'施工中...'} theBg={itemBgSrc} theDesc={'新的小作品正在赶来的路上(￣︶￣)↗'} theUrl={'#'} />);
