@@ -10,14 +10,16 @@ import { Router, Route, hashHistory } from 'react-router';
 import IndexPage from './sub/indexPage.jsx';
 import CG from './sub/cg.jsx';
 import Fe from './sub/fe.jsx';
+import About from './about.jsx';
 
 
 ReactDOM.render(
     (
 		<Router history={hashHistory}>
-			<Route path="/" component={IndexPage}/>
-			<Route path="/fe" component={Fe}/>
-			<Route path="/cg" component={CG}/>
+			<Route path="/" component={IndexPage} />
+			<Route path="/fe" component={Fe} />
+			<Route path="/cg" component={CG} />
+			<Route path="/about" component={About} />
 		</Router>
     ),
     document.getElementById("outter")

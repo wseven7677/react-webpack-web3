@@ -2,6 +2,7 @@ import React from 'react';
 
 import TitleBlock from './titleBlock.jsx';
 import GalleryApp from './gallery.jsx';
+import Items from './items.jsx';
 
 class CG extends React.Component {
 
