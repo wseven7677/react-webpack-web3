@@ -16,7 +16,7 @@ import itemBgSrcXiaoqiwang from '../../images/itemBg-xiaoqiwang.jpg';
 class Item extends React.Component {
 	render() {
 		return <div className="theItem">
-			<a href={this.props.theUrl}>
+			<a href={this.props.theUrl} target="_blank">
 				<img src={this.props.theBg} />
 				<span>{this.props.theName}</span>
 				<span>{this.props.theDesc}</span>
