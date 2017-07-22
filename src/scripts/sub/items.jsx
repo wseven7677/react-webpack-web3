@@ -12,6 +12,9 @@ import itemBgSrcDuilie from '../../images/itemBg-duilie.jpg';
 
 import itemBgSrcQx from '../../images/itemBg-qx.jpg';
 import itemBgSrcXiaoqiwang from '../../images/itemBg-xiaoqiwang.jpg';
+import itemBgSrcYaohu from '../../images/itemBg-yaohu.jpg';
+
+import itemBgSrcGo from '../../images/itemBg-go.jpg';
 
 class Item extends React.Component {
 	render() {
@@ -62,6 +65,12 @@ class Items extends React.Component {
 					break;
 				case 102:
 					tidyItems.push(<Item key={index} theName={'【漫画】小棋王奇遇记'} theBg={itemBgSrcXiaoqiwang} theDesc={'短篇故事漫画~'} theUrl={'http://www.wseven7677.tk/wpBlog/index.php/archives/32'} />);
+					break;
+				case 103:
+					tidyItems.push(<Item key={index} theName={'【吐血临摹】妖狐'} theBg={itemBgSrcYaohu} theDesc={'阴阳师手游角色：妖狐'} theUrl={'http://www.wseven7677.tk/wpBlog/index.php/archives/262'} />);
+					break;
+				case 201:
+					tidyItems.push(<Item key={index} theName={'【自制】unity围棋棋盘'} theBg={itemBgSrcGo} theDesc={'使用unity3d制作的围棋棋盘，用于摆棋谱。demo。'} theUrl={'go'} />);
 					break;
 				default:
 					tidyItems.push(<Item key={index} theName={'施工中...'} theBg={itemBgSrc} theDesc={'新的小作品正在赶来的路上(￣︶￣)↗'} theUrl={'#'} />);

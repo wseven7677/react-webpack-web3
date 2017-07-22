@@ -13,7 +13,7 @@ class CG extends React.Component {
 	    		<GalleryApp />
 			</div>
 			<div className="warnNotes">这里有个画板墙╮(╯▽╰)╭但是只在宽屏上显示</div>
-			<Items theItems={[101,102,103,104,105]} />
+			<Items theItems={[101,102,103,104,105,106]} />
         </div>;
     }
 }
