@@ -14,6 +14,7 @@ import About from './about.jsx';
 
 import Todo from './components/todo.jsx';
 import Chisha from './components/chisha.jsx';
+import IphoneScreen from './components/iphoneScreen.jsx';
 
 ReactDOM.render(
     (
@@ -25,6 +26,7 @@ ReactDOM.render(
 
 			<Route path="/app/todo" component={Todo} />
 			<Route path="/app/chisha" component={Chisha} />
+			<Route path="/app/iphoneScreen" component={IphoneScreen} />
 		</Router>
     ),
     document.getElementById("outter")
